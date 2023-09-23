@@ -1,0 +1,12 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/cdk-app.ts",
+  "context": {
+    "@aws-cdk-lib/core:newStyleStackSyntehsis": true,
+    "aws-cdk-lib:enableStackNameDuplicates": "false",
+    "aws-cdk-lib:bootstrapQualifier": "my-bootstrap-qualifier",
+    "aws-cdk-lib:enableDiffNoFail": "true"
+  },
+  "toolkitStackName": "CDKToolkit",
+  "output": "cdk.out",
+  "output-directory": "cdk.out"
+}
